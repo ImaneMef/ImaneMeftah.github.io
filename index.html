@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Imane Meftah — International Business</title>
+  <meta name="description" content="Imane Meftah — International Business student (FUISAT, Fuzhou). Arabic, French, English and Mandarin. Open to internships and entry-level roles in international business worldwide.">
+  <meta name="theme-color" content="#0B1B2B">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Imane Meftah — International Business">
+  <meta property="og:description" content="From Morocco to Fuzhou: building bridges between markets, cultures and people. Open to internships worldwide.">
+  <meta property="og:image" content="assets/photo.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B1B2B'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='28' text-anchor='middle' fill='%23E9DCC6'%3EIM%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&family=Noto+Naskh+Arabic:wght@600&family=Noto+Sans+SC:wght@400;500&family=Noto+Serif+SC:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip" href="#about">Skip to content</a>
+
+  <!-- Preloader: hello in her four languages -->
+  <div class="preloader" aria-hidden="true">
+    <div class="preloader__words">
+      <span lang="ar" dir="rtl">مرحبا</span>
+      <span lang="fr">Bonjour</span>
+      <span lang="en">Hello</span>
+      <span lang="zh">你好</span>
+    </div>
+    <div class="preloader__count"><span class="preloader__num">0</span>%</div>
+    <div class="preloader__meta">Morocco <i></i> China</div>
+  </div>
+
+  <!-- Language switch wipe -->
+  <div class="wipe" aria-hidden="true"><span class="wipe__word"></span></div>
+
+  <div class="cursor" aria-hidden="true"><div class="cursor__dot"></div><div class="cursor__ring"><span class="cursor__label"></span></div></div>
+  <div class="progress" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Route line that travels down the whole page -->
+  <svg class="route" aria-hidden="true">
+    <defs>
+      <mask id="routeMask" maskUnits="userSpaceOnUse"><path class="route__mask" fill="none" stroke="#fff" stroke-width="6"/></mask>
+    </defs>
+    <path class="route__path" fill="none" mask="url(#routeMask)"/>
+    <circle class="route__tip" r="5"/>
+  </svg>
+
+  <header class="header">
+    <a href="#top" class="logo magnetic" aria-label="Imane Meftah — home">
+      <span class="logo__mark">IM</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#about" data-i18n="nav.about">Route</a>
+      <a href="#work" data-i18n="nav.work">Work</a>
+      <a href="#languages" data-i18n="nav.languages">Languages</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <button class="lang-toggle" type="button" aria-label="Switch language / 切换语言">
+      <span class="lang-toggle__pill"></span>
+      <span data-l="en">EN</span><span data-l="zh">中文</span>
+    </button>
+  </header>
+
+  <main id="content">
+
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <svg class="hero__star hero__star--a" viewBox="-50 -50 100 100" aria-hidden="true"><use href="#zellige"/></svg>
+      <svg class="hero__star hero__star--b" viewBox="-50 -50 100 100" aria-hidden="true"><use href="#zellige"/></svg>
+      <div class="hero__inner container">
+        <div class="hero__text">
+          <p class="eyebrow hero__eyebrow"><span class="dot-live"></span><span data-i18n="hero.status">Available for internships</span></p>
+          <h1 class="hero__name">
+            <span class="hero__line" data-split="chars" data-i18n="hero.first">Imane</span>
+            <span class="hero__line hero__line--italic" data-split="chars" data-i18n="hero.last">Meftah</span>
+          </h1>
+          <p class="hero__role"><span class="typer" data-i18n="hero.role">Building bridges between markets, cultures and people.</span></p>
+          <p class="hero__meta"><span data-i18n="hero.eyebrow">International Business · Class of 2027</span> <span class="sep">/</span> <span data-i18n="hero.location">Based in Fuzhou, China — open to relocate worldwide</span></p>
+          <div class="hero__ctas">
+            <a href="#about" class="btn btn--solid magnetic"><span data-i18n="hero.cta1">View my journey</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a>
+            <a href="assets/Imane-Meftah-CV.pdf" class="btn btn--ghost magnetic cv-link" download><span data-i18n="hero.cta2">Download CV</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg></a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="arch">
+            <!-- Drop her photo in assets/photo.jpg. If it is missing, the IM monogram shows instead. -->
+            <img class="arch__img" src="assets/photo.jpg" alt="Portrait of Imane Meftah" onerror="this.remove()">
+            <div class="arch__mono" aria-hidden="true">IM</div>
+            <div class="arch__cover"></div>
+          </div>
+          <div class="hero__badge" aria-hidden="true">
+            <svg viewBox="0 0 120 120"><defs><path id="badgeCircle" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>
+              <text><textPath href="#badgeCircle">AR · FR · EN · 中文 · AR · FR · EN · 中文 ·</textPath></text></svg>
+            <span>4</span>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="hero__scroll"><span data-i18n="hero.scroll">Scroll</span><i></i></a>
+    </section>
+
+    <!-- ABOUT / ROUTE -->
+    <section class="section about" id="about">
+      <div class="container">
+        <p class="label" data-reveal data-i18n="about.label">01 — The route</p>
+        <h2 class="h2" data-split="words" data-reveal data-i18n="about.title">From Morocco to Fuzhou.</h2>
+
+        <figure class="map" aria-label="Map showing a route from Morocco to Fuzhou, China">
+          <svg class="map__svg" viewBox="0 0 600 230" role="img" aria-hidden="true">
+            <g class="map__dots"></g>
+            <path id="arc" class="map__arc-base" d="M288,73 Q394,-4 499,87"/>
+            <path class="map__arc" d="M288,73 Q394,-4 499,87"/>
+            <g class="map__pin map__pin--a" transform="translate(288 73)"><circle class="pulse" r="4"/><circle r="4"/></g>
+            <g class="map__pin map__pin--b" transform="translate(499 87)"><circle class="pulse" r="4"/><circle r="4"/></g>
+            <g class="map__plane"><path d="M-7,-5 L9,0 L-7,5 L-3,0 Z"/></g>
+          </svg>
+          <figcaption class="map__labels">
+            <div class="map__label map__label--a"><small data-i18n="about.from">Origin</small><b data-i18n="about.fromPlace">Morocco</b></div>
+            <div class="map__label map__label--b"><small data-i18n="about.to">Now</small><b data-i18n="about.toPlace">Fuzhou, China</b></div>
+          </figcaption>
+        </figure>
+
+        <div class="about__grid">
+          <p class="about__body" data-scrub data-i18n="about.body">I'm an international business student who learns fastest where cultures meet. Born in Morocco and studying in China, I bring confident cross-cultural communication, strong organisation and a real passion for working with diverse teams to solve problems and open new growth opportunities.</p>
+          <dl class="ticket" data-reveal>
+            <div><dt data-i18n="about.edu.k">Education</dt><dd data-i18n="about.edu.v">B.A. International Business</dd></div>
+            <div><dt data-i18n="about.school.k">School</dt><dd data-i18n="about.school.v">Fuzhou University of International Studies and Trade</dd></div>
+            <div><dt data-i18n="about.year.k">Status</dt><dd data-i18n="about.year.v">Year 3 of 4 — graduating 2027</dd></div>
+            <div><dt data-i18n="about.focus.k">Focus</dt><dd data-i18n="about.focus.v">Global trade · Management · Cross-cultural business</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS + MARQUEE -->
+    <section class="stats" aria-label="Key facts">
+      <div class="container stats__grid">
+        <div class="stat" data-reveal><b class="counter" data-to="4">4</b><span data-i18n="stats.s1">Languages spoken</span></div>
+        <div class="stat" data-reveal><b class="counter" data-to="1">1</b><span data-i18n="stats.s2">Honorary award</span></div>
+        <div class="stat" data-reveal><b><span class="counter" data-to="3">3</span><sup>rd</sup></b><span data-i18n="stats.s3">Year of my IB degree</span></div>
+        <div class="stat" data-reveal><b class="counter" data-to="2027" data-from="2000">2027</b><span data-i18n="stats.s4">Graduation year</span></div>
+      </div>
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <div class="marquee__group">
+            <span data-i18n="k1">Public speaking</span><i>✦</i><span data-i18n="k2">Negotiation</span><i>✦</i><span data-i18n="k8">Business development</span><i>✦</i><span data-i18n="k4">Cross-cultural communication</span><i>✦</i><span data-i18n="k6">Leadership</span><i>✦</i><span data-i18n="k9">International operations</span><i>✦</i>
+          </div>
+          <div class="marquee__group">
+            <span data-i18n="k1">Public speaking</span><i>✦</i><span data-i18n="k2">Negotiation</span><i>✦</i><span data-i18n="k8">Business development</span><i>✦</i><span data-i18n="k4">Cross-cultural communication</span><i>✦</i><span data-i18n="k6">Leadership</span><i>✦</i><span data-i18n="k9">International operations</span><i>✦</i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK / SHIPMENTS -->
+    <section class="section work" id="work">
+      <div class="work__track">
+        <div class="work__intro">
+          <p class="label" data-reveal data-i18n="work.label">02 — Shipments</p>
+          <h2 class="h2" data-split="words" data-reveal data-i18n="work.title">Selected work &amp; experience</h2>
+          <p class="work__hint" data-reveal><span data-i18n="work.hint">Keep scrolling</span> <i>→</i></p>
+        </div>
+
+        <!-- To add a photo or link to a card: put an <img> inside .card__media, or wrap the title in <a href="...">. -->
+        <article class="card" data-cursor="Scroll">
+          <div class="card__main">
+            <p class="card__tag" data-i18n="p1.tag">Trade simulation</p>
+            <h3 class="card__title" data-i18n="p1.title">Smartphone Import / Export Simulation</h3>
+            <p class="card__desc" data-i18n="p1.desc">Ran a complete import/export case for smartphones — sourcing, pricing, documentation and logistics — applying international trade concepts to a real business scenario.</p>
+            <div class="card__media flow" aria-hidden="true">
+              <div class="flow__line"><span class="flow__box"></span></div>
+              <div class="flow__node"><i>
+                <svg viewBox="0 0 24 24"><rect x="7" y="3" width="10" height="18" rx="2"/><path d="M11 18h2"/></svg></i><span data-i18n="flow.1">Supplier</span></div>
+              <div class="flow__node"><i>
+                <svg viewBox="0 0 24 24"><path d="M4 21V9l8-5 8 5v12M9 21v-6h6v6"/></svg></i><span data-i18n="flow.2">Customs</span></div>
+              <div class="flow__node"><i>
+                <svg viewBox="0 0 24 24"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg></i><span data-i18n="flow.3">Logistics</span></div>
+              <div class="flow__node"><i>
+                <svg viewBox="0 0 24 24"><path d="M4 9l1-5h14l1 5M4 9h16v11H4zM9 20v-6h6v6"/></svg></i><span data-i18n="flow.4">Market</span></div>
+            </div>
+          </div>
+          <div class="card__stub">
+            <dl>
+              <div><dt data-i18n="work.f.no">Shipment</dt><dd>IM-001</dd></div>
+              <div><dt data-i18n="work.f.date">Date</dt><dd data-i18n="p1.date">2025</dd></div>
+              <div><dt data-i18n="work.f.route">Route</dt><dd class="code">SZX <span>⇄</span> CMN</dd></div>
+            </dl>
+            <span class="stamp" data-i18n="work.stamp">Delivered</span>
+          </div>
+        </article>
+
+        <article class="card" data-cursor="Scroll">
+          <div class="card__main">
+            <p class="card__tag" data-i18n="p2.tag">Diplomacy</p>
+            <h3 class="card__title" data-i18n="p2.title">Speech for an Ambassador's Visit</h3>
+            <p class="card__desc" data-i18n="p2.desc">Delivered a speech on behalf of the students during an ambassador's official visit to the university — a formal, high-visibility setting.</p>
+            <div class="card__media card__media--icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><rect x="24" y="6" width="16" height="28" rx="8"/><path d="M16 28a16 16 0 0 0 32 0M32 44v12M22 56h20"/><path class="wave" d="M8 22c-3 4-3 10 0 14M56 22c3 4 3 10 0 14"/></svg>
+            </div>
+          </div>
+          <div class="card__stub">
+            <dl>
+              <div><dt data-i18n="work.f.no">Shipment</dt><dd>IM-002</dd></div>
+              <div><dt data-i18n="work.f.date">Date</dt><dd data-i18n="p2.date">2025</dd></div>
+              <div><dt data-i18n="work.f.route">Route</dt><dd class="code">FOC <span>→</span> VIP</dd></div>
+            </dl>
+            <span class="stamp" data-i18n="work.stamp">Delivered</span>
+          </div>
+        </article>
+
+        <article class="card" data-cursor="Scroll">
+          <div class="card__main">
+            <p class="card__tag" data-i18n="p3.tag">Competition</p>
+            <h3 class="card__title" data-i18n="p3.title">Team Presentation Competition</h3>
+            <p class="card__desc" data-i18n="p3.desc">Presented on behalf of my team in a university competition, turning shared research into a confident, persuasive pitch.</p>
+            <div class="card__media card__media--icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><rect x="6" y="8" width="52" height="32" rx="3"/><path class="bars" d="M18 32v-8M28 32V18M38 32v-11M48 32V14"/><path d="M32 40v8M22 56l10-8 10 8"/></svg>
+            </div>
+          </div>
+          <div class="card__stub">
+            <dl>
+              <div><dt data-i18n="work.f.no">Shipment</dt><dd>IM-003</dd></div>
+              <div><dt data-i18n="work.f.date">Date</dt><dd data-i18n="p3.date">2025</dd></div>
+              <div><dt data-i18n="work.f.route">Route</dt><dd class="code">FOC <span>→</span> WIN</dd></div>
+            </dl>
+            <span class="stamp" data-i18n="work.stamp">Delivered</span>
+          </div>
+        </article>
+
+        <article class="card" data-cursor="Scroll">
+          <div class="card__main">
+            <p class="card__tag" data-i18n="p4.tag">Leadership</p>
+            <h3 class="card__title" data-i18n="p4.title">Social Practice &amp; Community Engagement</h3>
+            <p class="card__desc" data-i18n="p4.desc">Took part in initiatives centred on public speaking, presentations and negotiation, building organisation and teamwork skills with consistently recognised results.</p>
+            <div class="card__media card__media--icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><circle cx="20" cy="22" r="7"/><circle cx="44" cy="22" r="7"/><circle cx="32" cy="16" r="6"/><path d="M6 50c0-9 6-15 14-15s14 6 14 15M30 50c0-9 6-15 14-15s14 6 14 15"/></svg>
+            </div>
+          </div>
+          <div class="card__stub">
+            <dl>
+              <div><dt data-i18n="work.f.no">Shipment</dt><dd>IM-004</dd></div>
+              <div><dt data-i18n="work.f.date">Date</dt><dd data-i18n="p4.date">2024 — Now</dd></div>
+              <div><dt data-i18n="work.f.route">Route</dt><dd class="code">FOC <span>→</span> COM</dd></div>
+            </dl>
+            <span class="stamp" data-i18n="work.stamp">Delivered</span>
+          </div>
+        </article>
+
+        <div class="work__end">
+          <div class="work__container" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+          <h3 data-i18n="work.end.title">More shipments on the way.</h3>
+          <p data-i18n="work.end.body">Internships and new projects will dock here soon.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HONORS -->
+    <section class="section honors" id="honors">
+      <div class="container honors__grid">
+        <div class="medal" aria-hidden="true">
+          <svg class="medal__ring" viewBox="0 0 300 300">
+            <defs><path id="medalCircle" d="M150,150 m-128,0 a128,128 0 1,1 256,0 a128,128 0 1,1 -256,0"/></defs>
+            <text><textPath href="#medalCircle" data-i18n="honors.ring">STAR OF SOCIAL PRACTICE · FUISAT · 2024 · </textPath></text>
+          </svg>
+          <div class="medal__core">
+            <svg viewBox="-50 -50 100 100"><use href="#zellige"/></svg>
+            <span class="medal__star">★</span>
+            <span class="medal__shine"></span>
+          </div>
+        </div>
+        <div>
+          <p class="label" data-reveal data-i18n="honors.label">03 — Honors</p>
+          <h2 class="h2 h2--xl" data-split="words" data-reveal data-i18n="honors.title">“Star of Social Practice”</h2>
+          <p class="lead" data-reveal data-i18n="honors.body">Awarded in December 2024 by the International Business School of FUISAT for outstanding performance and active participation in social practice throughout the year.</p>
+          <p class="honors__date" data-reveal>12 · 2024 — FUISAT</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- LANGUAGES -->
+    <section class="section languages" id="languages">
+      <div class="container">
+        <p class="label" data-reveal data-i18n="lang.label">04 — Languages</p>
+        <h2 class="h2" data-split="words" data-reveal data-i18n="lang.title">Four languages. One conversation.</h2>
+        <div class="stamps">
+          <div class="lstamp" data-level="1" style="--c: var(--terracotta)">
+            <svg viewBox="0 0 200 200" aria-hidden="true">
+              <defs><path id="ls1" d="M100,100 m-86,0 a86,86 0 1,1 172,0 a86,86 0 1,1 -172,0"/></defs>
+              <text class="lstamp__ring"><textPath href="#ls1" data-i18n="lang.ring.ar">ARABIC · NATIVE · ARABIC · NATIVE · </textPath></text>
+              <circle class="lstamp__track" cx="100" cy="100" r="64"/>
+              <circle class="lstamp__arc" cx="100" cy="100" r="64"/>
+            </svg>
+            <span class="lstamp__glyph" lang="ar">ع</span>
+            <p><b data-i18n="lang.ar">Arabic</b><span data-i18n="lang.native">Native</span></p>
+          </div>
+          <div class="lstamp" data-level="0.9" style="--c: #2F5DA8">
+            <svg viewBox="0 0 200 200" aria-hidden="true">
+              <defs><path id="ls2" d="M100,100 m-86,0 a86,86 0 1,1 172,0 a86,86 0 1,1 -172,0"/></defs>
+              <text class="lstamp__ring"><textPath href="#ls2" data-i18n="lang.ring.fr">FRENCH · FLUENT · FRENCH · FLUENT · </textPath></text>
+              <circle class="lstamp__track" cx="100" cy="100" r="64"/>
+              <circle class="lstamp__arc" cx="100" cy="100" r="64"/>
+            </svg>
+            <span class="lstamp__glyph">Fr</span>
+            <p><b data-i18n="lang.fr">French</b><span data-i18n="lang.fluent">Fluent</span></p>
+          </div>
+          <div class="lstamp" data-level="0.9" style="--c: var(--sage)">
+            <svg viewBox="0 0 200 200" aria-hidden="true">
+              <defs><path id="ls3" d="M100,100 m-86,0 a86,86 0 1,1 172,0 a86,86 0 1,1 -172,0"/></defs>
+              <text class="lstamp__ring"><textPath href="#ls3" data-i18n="lang.ring.en">ENGLISH · FLUENT · ENGLISH · FLUENT · </textPath></text>
+              <circle class="lstamp__track" cx="100" cy="100" r="64"/>
+              <circle class="lstamp__arc" cx="100" cy="100" r="64"/>
+            </svg>
+            <span class="lstamp__glyph">En</span>
+            <p><b data-i18n="lang.en">English</b><span data-i18n="lang.fluent">Fluent</span></p>
+          </div>
+          <div class="lstamp" data-level="0.45" style="--c: var(--red)">
+            <svg viewBox="0 0 200 200" aria-hidden="true">
+              <defs><path id="ls4" d="M100,100 m-86,0 a86,86 0 1,1 172,0 a86,86 0 1,1 -172,0"/></defs>
+              <text class="lstamp__ring"><textPath href="#ls4" data-i18n="lang.ring.zh">MANDARIN · LEARNING · MANDARIN · LEARNING · </textPath></text>
+              <circle class="lstamp__track" cx="100" cy="100" r="64"/>
+              <circle class="lstamp__arc" cx="100" cy="100" r="64"/>
+            </svg>
+            <span class="lstamp__glyph" lang="zh">中</span>
+            <p><b data-i18n="lang.zh">Mandarin</b><span data-i18n="lang.conv">Conversational · studying</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <p class="label" data-reveal data-i18n="skills.label">05 — Toolkit</p>
+        <h2 class="h2" data-split="words" data-reveal data-i18n="skills.title">What I bring to the table</h2>
+        <ul class="chips">
+          <li data-i18n="k1">Public speaking</li>
+          <li data-i18n="k2">Negotiation</li>
+          <li data-i18n="k3">Presentations</li>
+          <li data-i18n="k4">Cross-cultural communication</li>
+          <li data-i18n="k5">Teamwork</li>
+          <li data-i18n="k6">Leadership</li>
+          <li data-i18n="k7">Organisation</li>
+          <li data-i18n="k8">Business development</li>
+          <li data-i18n="k9">International operations</li>
+          <li data-i18n="k10">Microsoft Office — Word · PowerPoint · Excel</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <p class="label" data-reveal data-i18n="contact.label">06 — Next destination</p>
+        <div class="board" aria-hidden="true">
+          <div class="board__row" data-flap="contact.board"></div>
+          <div class="board__row board__row--small" data-flap="contact.board2"></div>
+        </div>
+        <h2 class="contact__title" data-split="words" data-reveal data-i18n="contact.title">Your team could be next.</h2>
+        <p class="lead" data-reveal data-i18n="contact.body">I'm looking for internships and entry-level roles in international business, business development and global operations — on-site, hybrid or remote, and happy to relocate anywhere.</p>
+        <div class="contact__actions" data-reveal>
+          <a class="btn btn--solid btn--big magnetic" href="mailto:imanemef0103@gmail.com">imanemef0103@gmail.com</a>
+          <button class="btn btn--ghost magnetic copy-email" type="button" data-email="imanemef0103@gmail.com"><span data-i18n="contact.copy">Copy email</span></button>
+          <a class="btn btn--ghost magnetic" href="https://www.linkedin.com/in/imane-meftah-8827603b7" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg>
+            <span data-i18n="contact.linkedin">LinkedIn</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span class="year">2026</span> Imane Meftah · <span data-i18n="footer.made">Designed &amp; built with care.</span></p>
+      <a href="#top" class="footer__top"><span data-i18n="footer.top">Back to top</span> ↑</a>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+
+  <!-- Shared 8-point zellige star -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <g id="zellige">
+        <rect x="-30" y="-30" width="60" height="60" fill="none" stroke="currentColor" stroke-width="1.2"/>
+        <rect x="-30" y="-30" width="60" height="60" fill="none" stroke="currentColor" stroke-width="1.2" transform="rotate(45)"/>
+        <circle r="18" fill="none" stroke="currentColor" stroke-width="1.2"/>
+        <rect x="-12" y="-12" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.2" transform="rotate(45)"/>
+        <rect x="-12" y="-12" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.2"/>
+      </g>
+    </defs>
+  </svg>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/MotionPathPlugin.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
